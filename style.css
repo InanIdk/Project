@@ -124,7 +124,7 @@ body {
 }
 
 .colors ul { 
-    list-style-image: url('assets/img/dot.png');
+    list-style-image: url('img/dot.png');
 }
 
 .curriculum {
@@ -177,18 +177,41 @@ font-weight: 50;
 }
 
 .ig li { 
-    list-style-image: url('assets/img/iglogo1.png');
+    list-style-image: url('img/iglogo1.png');
 }
 
 .mail li { 
-    list-style-image: url('assets/img/maillogo1.png');
+    list-style-image: url('img/maillogo1.png');
 }
 
 
 @media only screen and (max-width: 1400px) {
+
+    .header_img {
+
+        margin: 30%;
+
+    }
+
+    .curriculum, .portfolio, .about-me { 
+        width: 95%;
+        font-size: 35px;
+    }
+
+    .sections ul {
+
+        padding-bottom: 20%;
+        
+    }
+
+    .sections ul li  {
+        font-size: 70px;
+        font-weight: lighter;
+    }
+
     .font-png, .logo-png, .poster-png {
-        flex-direction: column;
-        padding: 8%;
+        flex-direction: row;
+        
 }
     ul {
         flex-direction: column;
@@ -197,9 +220,5 @@ font-weight: 50;
     li {
         padding: 5%;
 }
-
-    .font-png1, .font-png2, .font-png3, .logo-png1,
-    .logo-png2, .logo-png3, .poster-png1, .poster-png2, .poster-png3 {
-    padding: 5%;
-}
+ 
 }
