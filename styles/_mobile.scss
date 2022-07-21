@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1400px) {
+
+    .header_img {
+
+        margin-top: 20%;
+
+    }
+
+    .curriculum, .portfolio, .about-me { 
+        width: 95%;
+        font-size: 35px;
+    }
+
+    .sections ul {
+        padding-top: 0%;
+        padding-bottom: 20%;
+        
+    }
+
+    .sections ul li  {
+        font-size: 70px;
+        font-weight: lighter;
+    }
+        
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        padding: 5%;
+}
+ 
+}

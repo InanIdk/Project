@@ -1,0 +1,36 @@
+.bars {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+    .skills {
+        height: 20PX;
+        background-color: #d5edeb;
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+        .ps, .ai, .id, .html, .css {
+            height: 20PX;
+            border-radius: 10px;
+            background-color: #00B68D;
+          }
+          .ps, .ai {
+            width: 90%;
+          }
+          
+          .html, .css {
+            width: 70%;
+          }
+        
+          .id { 
+            width: 50%;
+          }
+      }
+
+    }
+
+  

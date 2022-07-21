@@ -1,0 +1,81 @@
+@mixin flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+@import "./curriculum";
+@import "./portfolio";
+@import "./aboutme";
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    flex-direction: column;
+    background: linear-gradient(#00B68D
+,#00002D);
+    background-attachment: fixed;
+    font-size: larger;
+    font-weight: lighter;
+    color: black;
+}
+
+.header_img {
+    @include flexcenter; 
+}
+
+.sections ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+     li  {
+        font-size: 35px;
+        font-weight: lighter;
+    }
+
+}
+
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+ 
+a:hover {
+    color: #00B68D;
+}
+
+.curriculum, .portfolio, .about-me { 
+    background-color: #ffffff;
+    width: 60%;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    border-radius: 50px;
+
+    .curriculum_img, .about-me_img {
+        @include flexcenter;
+        padding-bottom: 5%;
+    }
+
+    .portfolio_img {
+        @include flexcenter;
+    }
+}
+
+.back {
+    @include flexcenter;
+    padding-top: 10%;
+}
+
+
+@import "./mobile";

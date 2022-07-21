@@ -1,0 +1,19 @@
+.list ul { 
+    list-style-image: url(/img/dot.png);
+}
+
+.font-png, .logo-png, .poster-png, .code-png {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+h1 {
+    @include flexcenter;
+    color:#00B68D;
+    margin: auto;
+    padding-top: 8%;
+    font-size: 50px;
+    font-weight: 50;
+}

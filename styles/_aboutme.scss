@@ -1,0 +1,37 @@
+.propic {
+    @include flexcenter; 
+    padding: 5%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+
+input[type=submit] {
+    background-color:#00B68D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+  
+
+input[type=submit]:hover {
+    background-color:#007e61;
+}
+  
+
+.container {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
