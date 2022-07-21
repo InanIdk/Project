@@ -28,10 +28,6 @@
   width: 50%;
 }
 
-.list ul {
-  list-style-image: url(/img/dot.GIF);
-}
-
 .font-png, .logo-png, .poster-png, .code-png {
   display: flex;
   justify-content: space-between;
@@ -48,6 +44,10 @@ h1 {
   padding-top: 8%;
   font-size: 50px;
   font-weight: 50;
+}
+
+.list ul {
+  list-style-image: url(/img/dot.gif);
 }
 
 .propic {
