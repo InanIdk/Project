@@ -46,8 +46,8 @@ h1 {
   font-weight: 50;
 }
 
-ul {
-  list-style-image: url("/img/dot.PNG");
+.color {
+  list-style-image: url(/img/dot.PNG);
 }
 
 .propic {
