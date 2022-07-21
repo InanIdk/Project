@@ -29,7 +29,7 @@
 }
 
 .list ul {
-  list-style-image: url(/img/dot.png);
+  list-style-image: url(/img/dot.PNG);
 }
 
 .font-png, .logo-png, .poster-png, .code-png {
@@ -69,6 +69,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
+  margin: auto;
+  display: flex;
   background-color: #00B68D;
   color: white;
   padding: 12px 20px;
@@ -159,18 +161,18 @@ a:hover {
 
 @media only screen and (max-width: 1400px) {
   .header_img {
-    margin-top: 20%;
+    margin-top: 5%;
   }
-  .curriculum, .portfolio, .about-me {
+  .curriculum, .portfolio, .about-me, .code {
     width: 95%;
-    font-size: 35px;
+    font-size: 20px;
   }
   .sections ul {
     padding-top: 0%;
     padding-bottom: 20%;
   }
   .sections ul li {
-    font-size: 70px;
+    font-size: 35px;
     font-weight: lighter;
   }
   ul {

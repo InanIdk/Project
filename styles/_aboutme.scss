@@ -16,6 +16,8 @@ input[type=text], select, textarea {
   
 
 input[type=submit] {
+    margin: auto;
+    display: flex;
     background-color:#00B68D;
     color: white;
     padding: 12px 20px;

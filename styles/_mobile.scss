@@ -2,13 +2,13 @@
 
     .header_img {
 
-        margin-top: 20%;
+        margin-top: 5%;
 
     }
 
-    .curriculum, .portfolio, .about-me { 
+    .curriculum, .portfolio, .about-me, .code { 
         width: 95%;
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .sections ul {
@@ -18,7 +18,7 @@
     }
 
     .sections ul li  {
-        font-size: 70px;
+        font-size: 35px;
         font-weight: lighter;
     }
         
@@ -29,5 +29,6 @@
     li {
         padding: 5%;
 }
+
  
 }
