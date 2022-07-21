@@ -174,4 +174,12 @@ a:hover {
   li {
     padding: 5%;
   }
+  .logo-png, .font-png, .poster-png, .code-png {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
