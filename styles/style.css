@@ -43,11 +43,14 @@ h1 {
 .bars .skills .ps, .bars .skills .ai {
   width: 90%;
 }
-.bars .skills .html, .bars .skills .css {
+.bars .skills .html {
+  width: 80%;
+}
+.bars .skills .css {
   width: 70%;
 }
 .bars .skills .id {
-  width: 50%;
+  width: 60%;
 }
 
 .propic {
@@ -57,7 +60,7 @@ h1 {
   padding: 5%;
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
